@@ -27,7 +27,10 @@
 	</div>
 	<div class="level">
 		<div class="ques">
-			<p> " Your Text Here "</p>
+			<audio controls>
+  <source src="arcane pics\music.mp3" type="audio/mpeg">
+                        </audio>
+			<img src="arcane pics/frog.jpg">
 		</div>
 		
 		<div class="ans">
@@ -50,7 +53,7 @@
 			if(isset($_POST['ans3']))
 			{
 				$check=$_POST["ans3"];
-				if ($_POST["ans3"] == 'pinterest'){
+				if ($_POST["ans3"] == 'https://www.youtube.com/watch?v=oc3dG9jArWs'){
 				$qry = "UPDATE signup SET ans3='$check', score='4' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques4.php");
