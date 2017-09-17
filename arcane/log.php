@@ -59,7 +59,7 @@
  
 						$qry = "UPDATE signup SET loggedin='1', score='1' WHERE mail='$myusername'"; // to maintain Logged-in Status
 						$res = mysqli_query($db,$qry);
-						header("location: ques1.php"); // user will be taken to profile page
+						header("location: rules.php"); // user will be taken to profile page
 					}
 					else
 					{
