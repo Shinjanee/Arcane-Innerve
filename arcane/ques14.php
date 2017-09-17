@@ -32,7 +32,7 @@
 		
 		<div class="ans">
 		<form method="post">
-			<input type="text" placeholder="Your answer" name="ans10" id="ans10" autocomplete="off" >
+			<input type="text" placeholder="Your answer" name="ans14" id="ans14" autocomplete="off" >
 			<input type="submit" name="submit">
 			<input type="reset" name="reset">
 			<input type="button" name="Leaderboard" value="Leaderboard" onClick="window.location.href ='score.php'">
@@ -47,13 +47,13 @@
 			?>
 			<p>Player: <?php echo $username ?> </p>
 			<?php
-			if(isset($_POST['ans10']))
+			if(isset($_POST['ans14']))
 			{
-				$check=$_POST["ans10"];
-				if ($_POST["ans10"] == 'pinterest'){
-				$qry = "UPDATE signup SET ans10='$check', score='11' WHERE mail='$username'";
+				$check=$_POST["ans14"];
+				if ($_POST["ans14"] == 'pinterest'){
+				$qry = "UPDATE signup SET ans10='$check', score='15' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
-				header("location: ques11.php");
+				header("location: ques15.php");
 				}
 			
 			else
