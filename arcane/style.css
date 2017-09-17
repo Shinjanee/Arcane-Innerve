@@ -2,9 +2,10 @@ body{
 	background-image: url("http://alliswall.com/file/4074/1920x1200/16:9/3d-treasure-hunt-wallpaper-.jpg");
 	background-size:  cover;
 	background-repeat: no-repeat;
-	
 }
-
+p{
+	position: relative;
+	color:white;}
 .title h1{
 	font-family: cursive,sans-serif,serif;
 	font-size: 30px;
@@ -113,7 +114,7 @@ input[type=text]{
 	margin-bottom: 20px;
 
 }
-input[type=submit],input[type=reset]{
+input[type=submit],input[type=reset],input[type=button]{
 	padding: 10px;
 	border-radius: 5%;
 	margin-top: 10%;

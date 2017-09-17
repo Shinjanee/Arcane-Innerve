@@ -59,7 +59,7 @@
  
 						$qry = "UPDATE signup SET loggedin='1', score='1' WHERE mail='$myusername'"; // to maintain Logged-in Status
 						$res = mysqli_query($db,$qry);
-						header("location: code.php"); // user will be taken to profile page
+						header("location: ques1.php"); // user will be taken to profile page
 					}
 					else
 					{
@@ -77,15 +77,17 @@
 				<fieldset>
 					<legend>Please, enter your email, password and password confirmation for sign up.</legend>
 					<label for="signup-name">Name</label>
-					<input id="signup-name" type="text" name="name" required autocomplete="off">
+					<input id="signup-name" type="text" name="name"  placeholder="Enter Name" required autocomplete="off">
 					<label for="signup-college">College</label>
-					<input id="signup-college" type="text" name="college" required autocomplete="off">
+					<input id="signup-college" type="text" name="college"  placeholder="Enter College Name" required autocomplete="off">
 					<label for="signup-email">E-mail</label>
-					<input id="signup-email" type="email" name="email" required autocomplete="off">
+					<input id="signup-email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email"  placeholder="Enter Email ID" required autocomplete="off">
+					<label for="signup-confirm-password">Contact</label>
+					<input id="signup-contact" type="tel" maxlength="10"  pattern="[0-9]{10}$" name="contact" placeholder="Enter Phone Number" required  autocomplete="off">
+					<label for="signup-year">Year</label>
+					<input id="signup-year" type="text" name="year" maxlength="1" pattern="[1-4]{1}$"  placeholder="Enter Year - single digit (1-4) " required autocomplete="off">
 					<label for="signup-password">Password</label>
-					<input id="signup-password" type="password" name="password" required autocomplete="off" >
-					<label for="signup-confirm-password">Confirm password</label>
-					<input id="signup-confirm-password" type="password" name="password" required >
+					<input id="signup-password" type="password" name="password"  placeholder="Enter Password" required autocomplete="off" >
 				</fieldset>
 				<input name="submit" type="submit" value="Continue" id="submit">
 				<?php
@@ -107,6 +109,8 @@
 								$password=$_POST['password'];
 								$mail=$_POST['email'];
 								$collge=$_POST['college'];
+								$contact=$_POST['contact'];
+								$year=$_POST['year'];
 								$q=mysqli_query($con,"select * from signup where name='".$name."' or mail='".$mail."' ") or die(mysqli_error());
 								$n=mysqli_fetch_row($q);
 								if($n>0)
@@ -119,7 +123,7 @@
 								}
 								else
 								{
-									$insert=mysqli_query($con,"insert into signup(name,password,mail,college) values('".$name."','".$password."','".$mail."','".$collge."')") or die(mysqli_error());
+									$insert=mysqli_query($con,"insert into signup(name,password,mail,college,contact,year) values('".$name."','".$password."','".$mail."','".$collge."','".$contact."','".$year."')") or die(mysqli_error());
 									if($insert)
 									{
 										$er='Values are registered successfully';
