@@ -27,7 +27,7 @@
 	</div>
 	<div class="level">
 		<div class="ques">
-			<p> " Your Text Here "</p>
+			<p> "We must all try, in every way we can, to send the message that reading is critical to our lives and to the life of our nation."</p>
 		</div>
 		
 		<div class="ans">
@@ -50,7 +50,7 @@
 			if(isset($_POST['ans9']))
 			{
 				$check=$_POST["ans9"];
-				if ($_POST["ans9"] == 'pinterest'){
+				if ($_POST["ans9"] == 'george bush virus'){
 				$qry = "UPDATE signup SET ans9='$check', score='10' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques10.php");
