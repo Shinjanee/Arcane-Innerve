@@ -27,7 +27,9 @@
 	</div>
 	<div class="level">
 		<div class="ques">
-			<p> " Your Text Here "</p>
+			<img src="arcane pics/nazi.jpg">
+			<p> The most difficult part of the conundrum was discovered.</p>
+		<h1> fiwwm\m9w </h1> <!-- should appear at the bottom of the page as the footer -->
 		</div>
 		
 		<div class="ans">
@@ -50,7 +52,7 @@
 			if(isset($_POST['ans11']))
 			{
 				$check=$_POST["ans11"];
-				if ($_POST["ans11"] == 'pinterest'){
+				if ($_POST["ans11"] == 'bletchley park'){
 				$qry = "UPDATE signup SET ans11='$check', score='12' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques12.php");
