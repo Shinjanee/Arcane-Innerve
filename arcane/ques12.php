@@ -27,7 +27,7 @@
 	</div>
 	<div class="level">
 		<div class="ques">
-			<p> " Your Text Here "</p>
+			<p> "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge"</p>
 		</div>
 		
 		<div class="ans">
@@ -50,7 +50,7 @@
 			if(isset($_POST['ans12']))
 			{
 				$check=$_POST["ans12"];
-				if ($_POST["ans12"] == 'pinterest'){
+				if ($_POST["ans12"] == 'george and the blue moon'){
 				$qry = "UPDATE signup SET ans12='$check', score='13' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques13.php");
