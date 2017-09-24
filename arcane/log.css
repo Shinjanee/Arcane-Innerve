@@ -12,8 +12,10 @@
 /* General */
 body {
 	width: 100%;
-	font-family: Roboto, sans-serif;
 	background: url("IMG2.jpg");
+	background-repeat: no-repeat;
+    	background-size: cover;
+	margin-top: 2%;
 	
 }
 
@@ -23,6 +25,12 @@ button {
 	text-transform: uppercase;
 	font-size: 14px;
 	background-color: transparent;
+}
+
+span{
+	font-size:	25px;
+	font-family: "Times New Roman", Courier, Arial;
+	
 }
 
 form {
@@ -68,12 +76,11 @@ input:not([type="submit"]) {
 input[type="submit"] {
 	float: right;
 	width: 120px;
-	margin-top: 30px;
+	margin-top: 20px;
 	line-height: 40px;
 	font-size: 18px;
 	border-radius: 20px;
 }
-
 
 /* Buttons and Inputs */
 .buttons,
