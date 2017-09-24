@@ -1,0 +1,94 @@
+body{
+	background-image: url("IMG2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 30px;
+	font-family: "Times New Roman", Courier, Arial;
+	color: hotpink;
+	
+}
+
+.home{
+	padding: 8%;
+	margin: 10px;
+}
+.tophead{
+	text-align: center;
+	margin-bottom: 3%;
+	color: white;
+	font-size: 35px;
+}
+
+
+.container{
+	margin: auto;
+	/*margin-top:18%;*/
+	width: 80%;
+	height: auto;
+	text-align: center;
+	position: relative;
+}
+
+.heading{
+	font-size: 140px;
+	color: hotpink;
+	font-weight: 500;
+    text-shadow: 1px 1px white;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px white;
+	margin-bottom:-15px;;
+	
+}
+
+.subheading{
+	position: absolute;
+	left: 70%;
+	font-style: italic;
+	text-shadow: 1px 1px white;
+}
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgba(236, 236, 230, 0);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+  width: 350px;
+  font-family: cursive,serif;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+  font-style:italic;
+}
+
+.container .button{
+	margin-top:10%
+}
+
+a:link{
+	text-decoration: none;
+	color: gold;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+/*instructions page*/
+.instructions{
+	margin: auto;
+	width: 60%;
+	text-align: center;
+}
+.title{
+	font-size: 60px;
+	text-shadow: 1px 1px white;
+	margin-bottom: 10px;
+}
+.rules{
+	text-align: left;
+	background: rgba(106, 108, 165, 0.3);
+	padding: 20px;
+	color: white;
+}
