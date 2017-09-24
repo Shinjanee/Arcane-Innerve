@@ -27,7 +27,7 @@
 	</div>
 	<div class="level">
 		<div class="ques">
-			<p> " Your Text Here "</p>
+			<img src="arcane pics/map.jpg">
 		</div>
 		
 		<div class="ans">
@@ -50,7 +50,7 @@
 			if(isset($_POST['ans16']))
 			{
 				$check=$_POST["ans16"];
-				if ($_POST["ans16"] == 'pinterest'){
+				if ($_POST["ans16"] == 'igdtuw'){
 				$qry = "UPDATE signup SET ans16='$check', score='17' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques17.php");
