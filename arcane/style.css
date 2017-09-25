@@ -1,11 +1,13 @@
 body{
-	background-image: url("imgques2.jpg");
-	background-size:  cover;
+	background-image: url("bckques.jpg");
 	background-repeat: no-repeat;
+	background-size:  cover;
+	color:white;
 }
 p{
 	position: relative;
-	color:white;}
+}
+
 .title h1{
 	font-family: cursive,sans-serif,serif;
 	font-size: 30px;
@@ -38,7 +40,6 @@ p{
 	color: #73f70e;
 	font-weight: bolder;
 }
-
 .rules ul li{
 	font-family:"Times New Roman",arial,sans-serif;
 	font-size: 28px;
@@ -72,7 +73,6 @@ p{
   position: relative;
   transition: 0.5s;
 }
-
 .button span:after {
   content: '\00bb';
   position: absolute;
@@ -81,11 +81,9 @@ p{
   right: -20px;
   transition: 0.5s;
 }
-
 .button:hover span {
   padding-right: 25px;
 }
-
 .button:hover span:after {
   opacity: 1;
   right: 0;
