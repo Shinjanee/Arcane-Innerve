@@ -5,10 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="home.css">
 </head>
 <body>
+	<img src= "red.png" style="width:200px; height: auto;"/>
 	<div class = "home">
-		<div class = "tophead">
+		<!--<div class = "tophead">
 			Innerve-IGDTUW presents
-		</div>
+		</div>-->
 	
 		<div class = "container">
 			<div class = "heading">
