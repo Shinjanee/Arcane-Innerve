@@ -57,7 +57,7 @@
 					{
 						$_SESSION['email']=$myusername; //Storing the username value in session variable so that it can be retrieved on other pages 
  
-						$qry = "UPDATE signup SET loggedin='1', score='1' WHERE mail='$myusername'"; // to maintain Logged-in Status
+						$qry = "UPDATE signup SET score='1' WHERE mail='$myusername'"; // to maintain Logged-in Status
 						$res = mysqli_query($db,$qry);
 						header("location: rules.php"); // user will be taken to profile page
 					}
@@ -77,17 +77,17 @@
 				<fieldset>
 					<legend>Please, enter your email, password and password confirmation for sign up.</legend>
 					<label for="signup-name">Name</label>
-					<input id="signup-name" type="text" name="name"  placeholder="Enter Name" required autocomplete="off">
+					<input id="signup-name" type="text" name="name"   required autocomplete="off">
 					<label for="signup-college">College</label>
-					<input id="signup-college" type="text" name="college"  placeholder="Enter College Name" required autocomplete="off">
+					<input id="signup-college" type="text" name="college"  required autocomplete="off">
 					<label for="signup-email">E-mail</label>
-					<input id="signup-email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email"  placeholder="Enter Email ID" required autocomplete="off">
+					<input id="signup-email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email"  required autocomplete="off">
 					<label for="signup-confirm-password">Contact</label>
-					<input id="signup-contact" type="tel" maxlength="10"  pattern="[0-9]{10}$" name="contact" placeholder="Enter Phone Number" required  autocomplete="off">
+					<input id="signup-contact" type="tel" maxlength="10"  pattern="[0-9]{10}$" name="contact"  required  autocomplete="off">
 					<label for="signup-year">Year</label>
-					<input id="signup-year" type="text" name="year" maxlength="1" pattern="[1-4]{1}$"  placeholder="Enter Year - single digit (1-4) " required autocomplete="off">
+					<input id="signup-year" type="text" name="year" maxlength="1" pattern="[1-4]{1}$"  placeholder="single digit (1-4) " required autocomplete="off">
 					<label for="signup-password">Password</label>
-					<input id="signup-password" type="password" name="password"  placeholder="Enter Password" required autocomplete="off" >
+					<input id="signup-password" type="password" name="password"  required autocomplete="off" >
 				</fieldset>
 				<input name="submit" type="submit" value="Continue" id="submit">
 				<?php

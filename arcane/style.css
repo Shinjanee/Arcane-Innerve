@@ -4,15 +4,18 @@ body{
 	background-size:  cover;
 	color:white;
 }
-p{
-	position: relative;
+#player{
+	font-size:30px;
+	position: fixed;
+	right:15px;
+	top:0px;
 }
 
 .title h1{
 	font-family: cursive,sans-serif,serif;
 	font-size: 30px;
 	color: #eaf215;
-	/*display: inline-block;*/
+	position:relative;
 	text-align: center;
 
 }

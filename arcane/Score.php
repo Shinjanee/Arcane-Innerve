@@ -90,10 +90,7 @@ body {
   text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px red;
 
 }
-.ys:hover {
-  color: rgba(255,255,255,1);
-  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , -1px 0 40px #efef07 , 0 0 70px #ff9000 , 0 0 80px #ff8300 , 0 0 100px #ffbf00 ;
-}
+
 
 #board
 {
@@ -117,13 +114,10 @@ tr:nth-child(odd){
   background-color: white;
   color:black;
  }
- tr:hover td
-{
-	background: orange;
-	color: rgba(255,67,0,1);
-}
+
 </head>
 </style>
+			<div id="header">LEADERBOARD</div>
 <div id="board">
     <table class="border" border="0" cellspacing="0" cellpadding="5" width="420"><tbody>
         <thead>
@@ -147,15 +141,12 @@ tr:nth-child(odd){
                 $score = $row['score'];
                
             ?>
-			<div id="header">&nbspLEADERBOARD</div>
+
                 <tr>
                     <td class="ys"><?php echo $name;?></td>
                     <td class="ys"><?php echo $score;?></td>
                 </tr>
-				<div class="button-align">
-				<br><br>
-                <button class="enjoy-css2" onclick="goBack()">Go Back</button>
-				</div>
+
 				<script>
 function goBack() {
   if(document.referrer!='http://localhost:8888/Game%20Of%20Code%20Tag-3.php')
@@ -172,5 +163,8 @@ function goBack() {
         </tbody>
     </table>
 </div>
-
+	<div class="button-align">
+				<br><br>
+                <button class="enjoy-css2" onclick="goBack()">Go Back</button>
+				</div>
 </html>
