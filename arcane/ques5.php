@@ -50,7 +50,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 	</div>
 	<div class="level">
 		<div class="ques">
-			<p> " ❑︎◆︎♋︎❒︎⧫︎♏︎❒︎ ◻︎♋︎⬧︎⧫︎ 🗏︎✍︎"</p>
+			<p> " ❑︎◆︎♋︎❒︎⧫︎♏︎❒︎ ◻︎♋︎⬧︎⧫︎"</p>
 		</div>
 		
 		<div class="ans"> 
@@ -73,7 +73,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			if(isset($_POST['ans5']))
 			{
 				$check=$_POST["ans5"];
-				if ($_POST["ans5"] == 'quarter past 3?'){
+				if ($_POST["ans5"] == 'the fall of troy'){
 				$qry = "UPDATE signup SET ans5='$check', score='6' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques6.php");
