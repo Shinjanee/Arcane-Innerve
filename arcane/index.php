@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="home.css">
 </head>
 <body>
-	<img src= "red.png" style="width:200px; height: auto;"/>
+	<img src= "logo.png" style="width:200px; height: auto;"/>
 	<div class = "home">
 		<!--<div class = "tophead">
 			Innerve-IGDTUW presents
