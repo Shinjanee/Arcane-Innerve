@@ -52,14 +52,55 @@
 					$query = "SELECT * FROM signup WHERE mail = '$myusername' and password = '$mypassword'"; //Fetching all the records with input credentials
 					$result = mysqli_query($db,$query);
 					$count = mysqli_num_rows($result);
-  
+					$q = "SELECT score FROM signup WHERE mail = '$myusername' and password = '$mypassword'"; //Fetching all the records with input credentials
+					$n = mysqli_query($db,$q);
+					$r = mysqli_fetch_array($n);
 					if($count == 1)
 					{
 						$_SESSION['email']=$myusername; //Storing the username value in session variable so that it can be retrieved on other pages 
  
-						$qry = "UPDATE signup SET score='1' WHERE mail='$myusername'"; // to maintain Logged-in Status
-						$res = mysqli_query($db,$qry);
-						header("location: rules.php"); // user will be taken to profile page
+						if($r['score']==1)
+						header("location: rules.php");
+						else if($r['score']==2)
+						header("location: ques2.php");
+						else if($r['score']==3)
+						header("location: ques3.php");
+						else if($r['score']==4)
+						header("location: ques4.php");
+						else if($r['score']==5)
+						header("location: ques5.php");
+						else if($r['score']==6)
+						header("location: ques6.php");
+						else if($r['score']==7)
+						header("location: ques7.php");
+						else if($r['score']==8)
+						header("location: ques8.php");
+						else if($r['score']==9)
+						header("location: ques9.php");
+						else if($r['score']==10)
+						header("location: ques10.php");
+						else if($r['score']==11)
+						header("location: ques11.php");
+						else if($r['score']==12)
+						header("location: ques12.php");
+						else if($r['score']==13)
+						header("location: ques13.php");
+						else if($r['score']==14)
+						header("location: ques14.php");
+						else if($r['score']==15)
+						header("location: ques15.php");
+						else if($r['score']==16)
+						header("location: ques16.php");
+						else if($r['score']==17)
+						header("location: ques17.php");
+						else if($r['score']==18)
+						header("location: ques18.php");
+						else if($r['score']==19)
+						header("location: ques19.php");
+						else if($r['score']==20)
+						header("location: ques20.php");
+						else
+						header("location: end.php");
 					}
 					else
 					{
@@ -128,6 +169,8 @@
 									{
 										$er='Values are registered successfully';
 										echo "<script>alert('$er')</script>";
+										$qry = "UPDATE signup SET score='1' WHERE mail='$mail'";
+										$res = mysqli_query($db,$qry);
 									}
 									else
 									{
