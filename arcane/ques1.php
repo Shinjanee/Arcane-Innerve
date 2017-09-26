@@ -40,13 +40,12 @@
             }
     }
 }
-
 	window.location.hash="no-back-button";
 window.location.hash="Again-No-back-button";//again because google chrome don't insert first hash into history
 window.onhashchange=function(){window.location.hash="no-back-button";}
 </script>
 	<div class="title">
-		<h1> Question 1: </h1> 
+		<h1> Level 1: </h1> 
 	</div>
 	<div class="level">
 		<div class="ques">
@@ -84,10 +83,8 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 				$er= 'Try Again';
 				echo "<script>alert('$er')</script>";
 				$q = stripslashes('$check');
-
 			}
 			}
-
 		?>
 
 </body>
