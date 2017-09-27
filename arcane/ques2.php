@@ -45,7 +45,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 </script>
 	
 	<div class="title">
-		<!-- <h1> Question 1: </h1> -->
+		<h1> Question 2: </h1> 
 	</div>
 	<div class="level">
 		<div class="ques">
@@ -68,7 +68,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			session_start();
 			$username = $_SESSION['email']; //retrieve the session variable
 			?>
-			<p>Player: <?php echo $username ?> </p>
+			<p id="player">Player: <?php echo $username ?> </p>
 			<?php
 			if(isset($_POST['ans2']))
 			{
