@@ -14,7 +14,7 @@ body {
 	width: 100%;
 	background: url("bck.jpg");
 	background-repeat: no-repeat;
-    	background-size: cover;
+    background-size: cover;
 	margin-top: 2%;
 	
 }
@@ -37,7 +37,10 @@ form {
 	position: relative;
 	width: 260px;
 	height: 280px;
-	padding: 20px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	background: #d7e7f1;
 	border-radius: 5px;
 }
@@ -45,6 +48,7 @@ form {
 form label, form input {
 	display: block;
 	opacity: 0;
+	color: darkblue;
 }
 
 legend {
@@ -76,7 +80,6 @@ input:not([type="submit"]) {
 input[type="submit"] {
 	float: right;
 	width: 120px;
-	margin-top: 20px;
 	line-height: 40px;
 	font-size: 18px;
 	border-radius: 20px;
@@ -153,9 +156,24 @@ input[type="submit"] {
   animation: buttonsMoveToLeft .3s linear forwards;
 }
 
+.login-form.login-button-active label{
+	padding-top: 10%;
+	font-size: 18px;
+	/*margin-top: -20px;*/
+}
+
 .login-form.login-button-active label,
 .login-form.login-button-active input {
   animation: fielsetSlideToRight .5s linear 0.25s forwards;
+}
+
+.signup-form input:not([type="submit"]){
+	margin: 0px auto 5px;
+}
+
+.signup-form.signup-button-active label{
+	font-size: 16px;
+	padding-top: 5px;
 }
 
 .signup-form.signup-button-active label,
@@ -165,13 +183,15 @@ input[type="submit"] {
 
 .login-form input[type="submit"] {
 	color: #fbfdff;
-	background: #a7e245;
+	background: #4550e2;
+	margin-top: 15%;
 }
 
 .signup-form input[type="submit"] {
-	color: #a7e245;
+	color: #4550e2;
 	background: #fbfdff;
-	box-shadow: inset 0 0 0 2px #a7e245;
+	box-shadow: inset 0 0 0 2px #4550e2;	
+	margin-top: 5px;
 }
 
 .login-form {
@@ -184,6 +204,10 @@ input[type="submit"] {
 
 .login-form.login-button-active {
   animation: loginToTop .4s linear forwards;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .signup-form.signup-button-active {
