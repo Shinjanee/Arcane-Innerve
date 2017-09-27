@@ -68,7 +68,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			session_start();
 			$username = $_SESSION['email']; //retrieve the session variable
 			?>
-			<p>Player: <?php echo $username ?> </p>
+			<p id="player">Player: <?php echo $username ?> </p>
 			<?php
 			if(isset($_POST['ans5']))
 			{
