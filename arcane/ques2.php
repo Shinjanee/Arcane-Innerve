@@ -2,8 +2,8 @@
 <html>
 <head>
 
-
-	<title> Cryptic event </title>
+<meta name ="author" content="">
+<title>Innerve'17</title>
 	<link rel="stylesheet" href="style.css">
 	 
 </head>

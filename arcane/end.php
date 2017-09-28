@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Congratulations</title>
+<meta name ="author" content="">
+<title>Innerve'17</title>
 	<link rel="stylesheet" type="text/css" href="home.css">
 </head>
 	<div class="congo">

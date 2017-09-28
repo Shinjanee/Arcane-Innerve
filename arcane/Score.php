@@ -126,8 +126,10 @@
 		color:	black;
 	}-->
 </style>
-
+<meta name ="author" content="">
+<title>Innerve'17</title>
 </head>
+
 
 <div id="header">LEADERBOARD</div>
 

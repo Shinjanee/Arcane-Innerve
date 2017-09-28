@@ -2,7 +2,8 @@
 <link href="log.css" rel="stylesheet">
 <head>
 	<meta charset="UTF-8">
-	<title>AnimaForm</title>
+	<<meta name ="author" content="">
+	<title>Innerve'17</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
