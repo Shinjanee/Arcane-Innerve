@@ -49,7 +49,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 	</div>
 	<div class="level">
 		<div class="ques">
-			<h1> "Half-son of Hephaestus loved this language. Didn’t he?"</h1>
+			<h1> "That tatoo on your arm"</h1>
 			<p> " -.-. / --- / -. / --. / .-. / .- / - / ..- / .-.. / .- / - / .. / --- / -. / ... "</p>
 		</div>
 		
@@ -73,7 +73,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			if(isset($_POST['ans2']))
 			{
 				$check=$_POST["ans2"];
-				if ($_POST["ans2"] == 'congratulations'){
+				if ($_POST["ans2"] == 'john f kennedy'){
 				$qry = "UPDATE signup SET ans2='$check', score='3' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques3.php");
