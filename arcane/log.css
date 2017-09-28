@@ -33,6 +33,7 @@ span{
 	
 }
 
+
 form {
 	position: relative;
 	width: 260px;
@@ -44,6 +45,7 @@ form {
 	background: #d7e7f1;
 	border-radius: 5px;
 }
+
 
 form label, form input {
 	display: block;
@@ -58,8 +60,9 @@ legend {
 }
 
 label {
-	padding-top: 8 px;
-	font-size: 14px;
+	padding-top:10 px;
+	margin: 5px 0px 4px 0px;
+	font-size: 16px;
 	color: #a1b4b4;
 	letter-spacing: 0.5px;
 	
@@ -69,8 +72,8 @@ input:not([type="submit"]) {
 	width: 220px;
 	margin: 5px auto 0;
 	padding: 0 15px;
-	line-height: 20px;
-	font-size: 14px;
+	line-height: 28px;
+	font-size: 16px;
 	color: #3b4465;
 	background: #eef9fe;
 	border: 1px solid #cddbef;
@@ -80,7 +83,7 @@ input:not([type="submit"]) {
 input[type="submit"] {
 	float: right;
 	width: 120px;
-	line-height: 40px;
+	line-height: 30px;
 	font-size: 18px;
 	border-radius: 20px;
 }
@@ -188,10 +191,10 @@ input[type="submit"] {
 }
 
 .signup-form input[type="submit"] {
-	color: #4550e2;
-	background: #fbfdff;
-	box-shadow: inset 0 0 0 2px #4550e2;	
-	margin-top: 5px;
+	color: #fbfdff;
+	background: #4550e2;
+	/*box-shadow: inset 0 0 0 2px #4550e2;*/	
+	margin-top: 20px;
 }
 
 .login-form {
@@ -200,6 +203,7 @@ input[type="submit"] {
 
 .signup-form {
   animation: signUpToBottom .4s linear forwards;
+
 }
 
 .login-form.login-button-active {
@@ -212,6 +216,8 @@ input[type="submit"] {
 
 .signup-form.signup-button-active {
   animation: signUpToTop .4s linear forwards;
+  padding-bottom: 450px;
+  padding-top: 15px;
 }
 
 
