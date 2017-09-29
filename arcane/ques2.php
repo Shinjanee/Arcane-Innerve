@@ -78,7 +78,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			if(isset($_POST['ans2']))
 			{
 				$check=$_POST["ans2"];
-				if ($_POST["ans2"] == 'john f kennedy'){
+				if ($_POST["ans2"] == 'johnfkennedy'){
 				$qry = "UPDATE signup SET ans2='$check', score='3' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques3.php");

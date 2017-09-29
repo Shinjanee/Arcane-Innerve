@@ -49,7 +49,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 <body>
 	
 	<div class="title">
-		<!-- <h1> Question 1: </h1> -->
+		<!-- <h1> Level 12: </h1> -->
 	</div>
 	<div class="level">
 		<div class="ques">
@@ -76,7 +76,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			if(isset($_POST['ans12']))
 			{
 				$check=$_POST["ans12"];
-				if ($_POST["ans12"] == 'george and the blue moon'){
+				if ($_POST["ans12"] == 'georgeandthebluemoon'){
 				$qry = "UPDATE signup SET ans12='$check', score='13' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques13.php");

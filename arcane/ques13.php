@@ -49,7 +49,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 <body>
 	
 	<div class="title">
-		<!-- <h1> Question 1: </h1> -->
+		<!-- <h1> Level 13: </h1> -->
 	</div>
 	<div class="level">
 		<div class="ques">
@@ -77,7 +77,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			if(isset($_POST['ans13']))
 			{
 				$check=$_POST["ans13"];
-				if ($_POST["ans13"] == 'bermuda triangle'){
+				if ($_POST["ans13"] == 'bermudatriangle'){
 				$qry = "UPDATE signup SET ans13='$check', score='14' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques14.php");

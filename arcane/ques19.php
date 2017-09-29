@@ -48,11 +48,11 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 </head>
 <body>
 	<div class="title">
-		<!-- <h1> Question 1: </h1> -->
+		<!-- <h1> Level 19: </h1> -->
 	</div>
 	<div class="level">
 		<div class="ques">
-			<img src="arcane pics/ mickey.jpg"
+			<img src="arcane pics/mickey.jpg"
 		</div>
 		
 		<div class="ans">
