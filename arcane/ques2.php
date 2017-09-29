@@ -54,7 +54,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 	</div>
 	<div class="level">
 		<div class="ques">
-			<h1> "That tatoo on your arm"</h1>
+			<h1> "That tattoo on your arm"</h1>
 			<p> " -.-. / --- / -. / --. / .-. / .- / - / ..- / .-.. / .- / - / .. / --- / -. / ... "</p>
 		</div>
 		
