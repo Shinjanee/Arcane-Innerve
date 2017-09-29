@@ -58,7 +58,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 		
 		<div class="ans">
 		<form method="post">
-			<input type="text" placeholder="Your answer" name="ans4" id="ans4" autocomplete="off">
+			<input type="text" placeholder="Your answer" name="ans4" id="ans4" autocomplete="off"><br><br>
 			<input type="submit" name="submit">
 			<input type="reset" name="reset">
 			<input type="button" name="Leaderboard" value="Leaderboard" onClick="window.location.href ='Score.php'">
