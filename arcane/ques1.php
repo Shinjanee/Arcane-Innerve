@@ -4,26 +4,7 @@
 <meta name ="author" content="">
 <title>Innerve'17</title>
 	<link rel="stylesheet" href="style.css">
-	 
-</head>
-<body oncontextmenu="return false">
-
-	<script>
-	document.onkeydown = function(e) {
-        if (e.ctrlKey && 
-            (e.keyCode === 67 || 
-             e.keyCode === 86 || 
-             e.keyCode === 85 || 
-             e.keyCode === 117)) {
-            alert('not allowed');
-            return false;
-        } else {
-            return true;
-        }
-	};
-	</script>
-	
-	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script type="text/javascript" charset="utf-8">
 	document.onkeydown = function(){
   switch (event.keyCode){
@@ -37,12 +18,36 @@
                 event.keyCode = 0;
                 return false;
             }
+		case 37 : //left arrow
+            if (event.altKey){ 
+                event.returnValue = false;
+                event.keyCode = 0;
+                return false;
+            }
+		case 39 : //Right arrow
+            if (event.altKey){ 
+                event.returnValue = false;
+                event.keyCode = 0;
+                return false;
+            }
+		case 85 : //U button
+            if (event.ctrlKey){ 
+                event.returnValue = false;
+                event.keyCode = 0;
+                return false;
+            }
     }
+}
+window.oncontextmenu = function () {
+return false;
 }
 	window.location.hash="no-back-button";
 window.location.hash="Again-No-back-button";//again because google chrome don't insert first hash into history
 window.onhashchange=function(){window.location.hash="no-back-button";}
 </script>
+</head>
+<body>
+
 	<div class="title">
 		<h1> Level 1: </h1> 
 	</div>
