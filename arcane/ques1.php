@@ -48,7 +48,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 	</div>
 	<div class="level">
 		<div class="ques">
-			<p> " Carefully write answer."</p>
+			<p> " Carefully observe everywhere and then write answer."</p>
 		</div>
 		
 		<div class="ans">
