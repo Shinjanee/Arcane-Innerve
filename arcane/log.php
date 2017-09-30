@@ -102,7 +102,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 						$_SESSION['email']=$myusername; //Storing the username value in session variable so that it can be retrieved on other pages 
  
 						if($r['score']==1)
-						header("location: rules.php");
+						header("location: ques1.php");
 						else if($r['score']==2)
 						header("location: ques2.php");
 						else if($r['score']==3)

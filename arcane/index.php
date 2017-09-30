@@ -60,8 +60,11 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			<div class = "subheading">
 				- online cryptic hunt
 			</div>
+			<br><br>
+			<p>Date: 4th-5th October 2017</p>
+			<p>Time: 9pm-3am</p>
 			<button class = "button">
-				<a href="log.php">Enter the hunt!</a>
+				<a href="rules.php">Enter the hunt!</a>
 			</button>
 		</div>
 	</div>

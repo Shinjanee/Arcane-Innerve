@@ -48,23 +48,24 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 </head>
 <body>
 	<div class = "instructions">
-	<div class = "title">Instructions</div>
+	<div class = "title">Rules</div>
 		<div class = "rules">
 			<i>Read the instructions carefully before starting the hunt:</i>
-			<ul>
-				<li>The game play involves getting into the next level after submitting the appropriate answer at each level.<br><br>
-				<li>Submit the answers in lower case.<br><br>
-				<li>No space allowed.<br><br>
-				<li>Apostrophe allowed.<br>
+			<ol>
+				<li>It is an individual event.<br><br>
+				<li>Event is open to all college/institute students.<br><br>
+				<li>The answers of all the levels would be in lower cases and should not include any spacing.<br><br>
+				<li>Special characters are allowed.<br>
 					For example: rohan'sdog<br><br>
+				<li>There is no restriction on the number of attempts for any level.<br><br>
 				<li>Google search is allowed.<br><br>
-				<li>Look for the hints on the webpage, the source code and the URL.<br><br>
-				<li>There is no restriction on the number of attempts.<br><br>
-				<li>Hints will be provided at our facebook page, fblink.
-			</ul>
+				<li>Look for hints on the page, url or page source.<br><br>
+				<li>Hints will also be provided at our facebook page< fblink>.<br><br>
+				<li>Anyone found practising harmful activities or violating rules would be straight away disqualified.
+			</ol>
 		</div>
 		<button class = "button">
-			<a href = "ques1.php">Start!</a>
+			<a href = "log.php">Start!</a>
 		</button>
 	</div>
 </body>
