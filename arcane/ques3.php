@@ -53,10 +53,10 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 	</div>
 	<div class="level">
 		<div class="ques">
+			<img src="arcane pics/frog.jpg"/><br><br>
 			<audio controls>
 				<source src="arcane pics/music.mp3" type="audio/mpeg">
             </audio>
-			<img src="arcane pics/frog.jpg">
 		</div>
 		
 		<div class="ans">

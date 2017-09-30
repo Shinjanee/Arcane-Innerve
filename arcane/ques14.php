@@ -53,7 +53,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 	</div>
 	<div class="level">
 		<div class="ques">
-			<img src="arcane pics/skating.jpg"
+			<img src="arcane pics/skating.jpg"/>
 			<p>In the beginning… Was the command line</p>
 		</div>
 		

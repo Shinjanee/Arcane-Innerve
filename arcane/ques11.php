@@ -55,7 +55,6 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 		<div class="ques">
 			<img src="arcane pics/nazi.jpg">
 			<p> The most difficult part of the conundrum was discovered.</p>
-		<h1> fiwwm\m9w </h1> <!-- should appear at the bottom of the page as the footer -->
 		</div>
 		
 		<div class="ans">
@@ -67,6 +66,9 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 		</form>
 		</div>
 	</div>
+	
+	<h4> fiwwm\m9w </h4> <!-- should appear at the bottom of the page as the footer -->
+	
 	<?php
 			include("DBConnection.php");
 
