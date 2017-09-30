@@ -50,7 +50,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 </head>
 <div>
 
-	<div class="congo">
+	<div class="register">
 		<h1><b>You have registered successfully! </b></h1>
 		<h2 class="w3-animate-zoom"><b>Come back on 4th October to show your cryptic skills.</b></h2>
 		<h3 class="w3-animate-zoom">GOODLUCK!</h3>
