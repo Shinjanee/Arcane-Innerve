@@ -79,7 +79,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			if(isset($_POST['ans3']))
 			{
 				$check=$_POST["ans3"];
-				if ($_POST["ans3"] == 'https://www.youtube.com/watch?v=oc3dG9jArWs'){
+				if ($_POST["ans3"] == 'osmgaming'){
 				$qry = "UPDATE signup SET ans3='$check', score='4' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques4.php");
