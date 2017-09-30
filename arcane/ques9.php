@@ -53,7 +53,8 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 	</div>
 	<div class="level">
 		<div class="ques">
-			<p> "We must all try, in every way we can, to send the message that reading is critical to our lives and to the life of our nation."</p>
+			<img src="arcane pics/luann.jpg"/>
+			<p>Can you lend me the picture of sisters who are not happy?</p>
 		</div>
 		
 		<div class="ans">
