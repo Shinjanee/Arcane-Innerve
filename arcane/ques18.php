@@ -53,7 +53,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 	</div>
 	<div class="level">
 		<div class="ques">
-		<img src="silicon.jpg">
+		<img src="arcane pics/silicon.jpg">
 			<p>"Billions of breeds with sesame seeds"</p>
 		</div>
 		
