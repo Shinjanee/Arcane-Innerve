@@ -6,7 +6,7 @@ body{
 }
 #player{
 	font-size:30px;
-	position: fixed;
+	position: absolute;
 	right:15px;
 	top:0px;
 }
