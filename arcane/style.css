@@ -34,6 +34,7 @@ img{
 	
 	width: 30%;
 	height: auto;
+	border-radius: 5px;
 }
 /*
 .rules{
@@ -56,88 +57,23 @@ img{
 	font-style: italic;
 }
 */
-.button {
+/*.button {
   display: inline-block;
-  border-radius: 20%;
- 
-  border: 5px solid ;
-  color: black;
-  text-align: center;
-  font-size: 20px;
-  padding: 20px;
-  width: 200px;
-  font-family: tahoma;
-  transition: all 0.5s;
-  cursor: pointer;
-margin-bottom: 50px;
-  margin-left: 60px;
-	margin-top: 180px;
-	box-shadow: 0 8px 16px 0 grey, 0 6px 20px 0 rgba(0,0,5,0.19);
-}
-
-
-.button-reset {
-  display: inline-block;
-  border-radius: 20%;
-
-  border: 5px solid ;
- 
-
-  text-align: center;
-  font-size: 20px;
-  padding: 20px;
-  width: 200px;
-  font-family: tahoma;
-  transition: all 0.5s;
-  cursor: pointer;
-   margin-bottom: 20px;
-  margin-left: 300px;
-	margin-top: 180px;
-	box-shadow: 0 8px 16px 0 grey, 0 6px 20px 0 rgba(0,0,5,0.19);
-}
-.button-leader  {
-  display: inline-block;
- 
+  border-radius: 10px;
+  background-color: #eaf215;
   border: none;
-  border-radius: 20%;
-
- 
-  border-color: white;
+  color: #FFFFFF;
   text-align: center;
   font-size: 20px;
-  padding: 20px;
-  border: 5px solid ; 
-  width: 25%;
-  font-family: algerian;
+  padding: 10px;
+  width: 200px;
+  font-family: cursive,serif;
   transition: all 0.5s;
   cursor: pointer;
-  margin-bottom: 80px;
-  margin-left: 90px;
-	margin-top: 10px;
-	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-	box-shadow: 0 8px 16px 0 grey, 0 6px 20px 0 rgba(0,0,5,0.19);
-}
-
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
-
-.button-reset:hover
-{ color: white;
-background-color: black;
-}
-.button:hover
-{
-	background-color: black;
-	color:white;
-}
-.button-leader:hover
-{
-	background-color: black;
-	color:white;
-}
-
-
+  margin-bottom: 20px;
+  margin-left: 460px;
+	margin-top: 80px;
+}*/
 /*.button span {
   cursor: pointer;
   display: inline-block;
@@ -177,7 +113,7 @@ input{
 }
 input[type=text]{
 	display: inline;
-	/*padding: 10px;*/
+	padding: 10px;
 	margin-top: 2%;
 	/*margin-right: 10px;
 	margin-bottom: 20px;*/
@@ -185,8 +121,8 @@ input[type=text]{
 }
 
 input[type=submit],input[type=reset],input[type=button]{
-	/*padding: 10px;*/
-	/*border-radius: 5%;*/
+	padding: 10px;
+	border-radius: 5%;
 	margin-top: 3%;
 	margin-right: 1%;
 
@@ -198,4 +134,89 @@ input[type=submit],input[type=reset],input[type=button]{
 	font-family: cursive,verdana,sans-serif;
 	color: #40f6f9;
 	font-weight: bolder;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+.button {
+  position:relative;
+  margin-top:10%;
+  
+  border:1px solid black;
+  padding:20px;
+  font-size:0.9em;
+  color:black;
+  box-shadow:4px 4px 0px 0px white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+  letter-spacing:5px;
+  text-transform:uppercase;
+  
+}
+
+.button:hover {
+  left:4px;
+  top:4px;
+  background:black;
+  border:1px solid white;
+  color:white;
+  box-shadow:none;
+  transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+}
+
+.button-leader {
+  position:relative;
+  margin-top:10%;
+  
+  border:1px solid black;
+  padding:20px;
+  font-size:0.9em;
+  color:black;
+  box-shadow:4px 4px 0px 0px white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+  letter-spacing:5px;
+  text-transform:uppercase;
+  
+}
+
+.button-leader:hover {
+  left:4px;
+  top:4px;
+  background:black;
+  border:1px solid white;
+  color:white;
+  box-shadow:none;
+  transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+}
+.button-reset {
+  position:relative;
+  margin-top:10%;
+  
+  border:1px solid black;
+  padding:20px;
+  font-size:0.9em;
+  color:black;
+  box-shadow:4px 4px 0px 0px white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+  letter-spacing:5px;
+  text-transform:uppercase;
+  
+}
+
+.button-reset:hover {
+  left:4px;
+  top:4px;
+  background:black;
+  border:1px solid white;
+  color:white;
+  box-shadow:none;
+  transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
 }
