@@ -99,9 +99,9 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 		<div class="ans">
 		<form method="post">
 			<input type="text" placeholder="Your answer" name="ans10" id="ans10" autocomplete="off" ><br><br>
-			<input type="submit" name="submit">
-			<input type="reset" name="reset">
-			<input type="button" name="Leaderboard" value="Leaderboard" onClick="window.location.href ='score.php'">
+			<input type="submit" name="submit" class="button">
+			<input type="reset" name="reset" class="button-reset">
+			<input type="button" name="Leaderboard" value="Leaderboard" onClick="window.location.href ='score.php'" class="button-leader">
 		</form>
 		</div>
 	</div>
