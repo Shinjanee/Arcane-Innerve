@@ -42,7 +42,6 @@
 		border-radius: 20px;		
 		margin-left:auto;
 		margin-right:auto;
-		
 	}
 
 	.enjoy-css2 {
@@ -114,17 +113,6 @@
 		<!--background-color: blue;-->
 	}
 
-	<!--tr{
-		background-color: blue;
-	}
-	tr:nth-child(even){
-	  background-color: black;
-	}
-
-	tr:nth-child(odd){
-		background-color: white;
-		color:	black;
-	}-->
 </style>
 <meta name ="author" content="">
 <title>Innerve'17</title>
@@ -178,12 +166,9 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
     <table class="border" border="0" cellspacing="0" cellpadding="5" width="420">
 		<tbody>
 			<thead>
-				<tr>
 					<td class="th" >NAME</td>
-					<td class="th">LEVEL</td>       
-				</tr>
+					<td class="th">LEVEL</td>
 			</thead>
-		<!--</tbody>-->
         <?php
             $connect = mysqli_connect("localhost","root", "");
             if (!$connect) {
