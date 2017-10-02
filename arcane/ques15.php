@@ -53,7 +53,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 	</div>
 	<div class="level">
 		<div class="ques">
-			<img src="arcane pics/ nit.jpg">
+			<img src="arcane pics/nit.jpg">
 			<p>"Order For. Order From."</p>
 		</div>
 		
