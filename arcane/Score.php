@@ -75,12 +75,12 @@
 	.th
 	{
 		font: normal bold 32px/normal "Trebuchet MS", Helvetica, sans-serif;
-		color: rgba(247,69,4,1);
+		font-size: -webkit-xxx-large;
 		text-align: center;
 		-o-text-overflow: clip;
 		text-overflow: clip;
 		letter-spacing: 2px;
-		text-shadow: 1px 1px 2px orange, 0 0 25px yellow, 0 0 5px orange;
+		text-shadow: 1px 1px 2px blue, 0 0 25px yellow, 0 0 5px blue;
 		padding: 10px 12px;
 	}
 
