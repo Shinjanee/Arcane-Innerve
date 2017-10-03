@@ -49,12 +49,12 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 <body>
 	
 	<div class="title">
-		<!-- <h1> Level 14: </h1> -->
+		<h1> Level 14: </h1>
 	</div>
 	<div class="level">
 		<div class="ques">
-			<img src="arcane pics/skating.jpg"/>
-			<p>In the beginning… Was the command line</p>
+			<img src="arcane pics/silicon.jpg"/>
+			<p>Billionsof breads with sesame seeds</p>
 		</div>
 		
 		<div class="ans">
@@ -77,7 +77,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			if(isset($_POST['ans14']))
 			{
 				$check=$_POST["ans14"];
-				if ($_POST["ans14"] == 'breakthecode'){
+				if ($_POST["ans14"] == 'burgerking'){
 				$qry = "UPDATE signup SET ans10='$check', score='15' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques15.php");
