@@ -53,7 +53,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 	</div>
 	<div class="level">
 		<div class="ques">
-			<p> " Carefully observe everywhere and then write answer."</p>
+			<p> " Carefully observe everywhere and then write answer=""</p>
 		</div>
 		
 		<div class="ans">
@@ -76,7 +76,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			if(isset($_POST['ans1']))
 			{
 				$check=$_POST["ans1"];
-				if ($_POST["ans1"] == 'answer'){
+				if ($_POST["ans1"] == 'invertedcommas'){
 				$qry = "UPDATE signup SET ans1='$check', score='2' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques2.php");

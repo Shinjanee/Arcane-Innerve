@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta name ="author" content="">
 <title>Innerve'17</title>
 	<link rel="stylesheet" href="style.css">
-	     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script type="text/javascript" charset="utf-8">
 	document.onkeydown = function(){
   switch (event.keyCode){
@@ -49,26 +50,24 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 <body>
 	
 	<div class="title">
-		<h1> Level 3: </h1>
+		<h1> Level 3: </h1> 
 	</div>
 	<div class="level">
 		<div class="ques">
-			<img src="arcane pics/frog.jpg"/><br><br>
-			<audio controls>
-				<source src="arcane pics/music.mp3" type="audio/mpeg">
-            </audio>
+			<h1> "That tattoo on your arm"</h1>
+			<p> " -.-. / --- / -. / --. / .-. / .- / - / ..- / .-.. / .- / - / .. / --- / -. / ... "</p>
 		</div>
 		
 		<div class="ans">
 		<form method="post">
-			<input type="text" placeholder="Your answer" name="ans3"id="ans3" autocomplete="off"><br><br>
+			<input type="text" placeholder="Your answer" name="ans3" id="ans3" autocomplete="off"><br><br>
 			<input type="submit" name="submit" class="button">
 			<input type="reset" name="reset" class="button-reset">
 			<input type="button" name="Leaderboard" value="Leaderboard" onClick="window.location.href ='Score.php'" class="button-leader">
 		</form>
 		</div>
-	</div>
-	<?php
+		</div>
+		<?php
 			include("DBConnection.php");
 
 			session_start();
@@ -79,7 +78,7 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			if(isset($_POST['ans3']))
 			{
 				$check=$_POST["ans3"];
-				if ($_POST["ans3"] == 'osmgaming'){
+				if ($_POST["ans3"] == 'johnfkennedy'){
 				$qry = "UPDATE signup SET ans3='$check', score='4' WHERE mail='$username'";
 				$res = mysqli_query($db,$qry);
 				header("location: ques4.php");
@@ -95,6 +94,8 @@ window.onhashchange=function(){window.location.hash="no-back-button";}
 			}
 
 		?>
+		 
+	
 
 </body>
 
