@@ -16,7 +16,7 @@ body {
 	background-repeat: no-repeat;
     background-size: cover;
 	margin-top: 2%;
-	
+	font-family: 'VT323', monospace;
 }
 
 button {
@@ -29,7 +29,7 @@ button {
 
 span{
 	font-size:	25px;
-	font-family: "Times New Roman", Courier, Arial;
+	font-family: 'VT323', monospace;
 	
 }
 

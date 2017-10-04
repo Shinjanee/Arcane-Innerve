@@ -12,7 +12,7 @@ body{
 }
 
 .title h1{
-	font-family: cursive,sans-serif,serif;
+	font-family: 'VT323', monospace;
 	font-size: 50px;
 	color: #eaf215;
 	position:relative;
@@ -109,7 +109,7 @@ img{
 }
 input{
 	font-size: 24px;
-	font-family: sans-serif;
+	font-family: 'VT323', monospace;
 }
 input[type=text]{
 	display: inline;
@@ -147,7 +147,7 @@ input[type=submit],input[type=reset],input[type=button]{
   font-size:0.9em;
   color:black;
   box-shadow:4px 4px 0px 0px white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'VT323', monospace;
   font-weight:700;
   letter-spacing:5px;
   text-transform:uppercase;
@@ -175,7 +175,7 @@ input[type=submit],input[type=reset],input[type=button]{
   font-size:0.9em;
   color:black;
   box-shadow:4px 4px 0px 0px white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'VT323', monospace;
   font-weight:700;
   letter-spacing:5px;
   text-transform:uppercase;
@@ -202,7 +202,7 @@ input[type=submit],input[type=reset],input[type=button]{
   font-size:0.9em;
   color:black;
   box-shadow:4px 4px 0px 0px white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'VT323', monospace;
   font-weight:700;
   letter-spacing:5px;
   text-transform:uppercase;

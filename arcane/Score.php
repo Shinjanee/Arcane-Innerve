@@ -117,6 +117,7 @@
 <meta name ="author" content="">
 <title>Innerve'17</title>
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     <script type="text/javascript" charset="utf-8">
 	document.onkeydown = function(){
   switch (event.keyCode){
